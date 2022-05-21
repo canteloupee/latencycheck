@@ -3,7 +3,7 @@
 if ["$1" == ""] 2> /dev/null
 then
   echo "Please enter a subnet, from email and to email"
-  echo "Syntax: sudo latencycheck 192.168.1.0/24 example@example.com test@example.com"
+  echo "Syntax: latencycheck 192.168.1.0/24 example@example.com test@example.com"
 
 else
 echo "Please wait while your report is generated"
